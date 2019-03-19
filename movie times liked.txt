@@ -1,0 +1,69 @@
+a_love_song_for_bobby_long = 3
+an_american_rhapsody = 1
+anna = 1
+american_beauty = 4
+barton_fink = 2
+blade_runner = 3
+the_big_lebowski = 3
+the_black_dahlia = 1
+blood_simple = 3
+the_cotton_club = 2
+cq = 1
+crimewave = 2
+down_from_the_mountain = 3
+eight_legged_freaks = 4
+fall = 1
+fargo = 4
+the_firm = 4
+frankenweenie = 1
+girl_with_a_pearl_earring = 2
+ghost_busters = 3
+ghost_world = 4
+the_godfather = 4
+the_godfather_part_ii = 2
+the_godfather_part_iii = 2
+a_good_woman = 1
+groundhog_day = 2
+hail_caesar = 2
+hearts_of_darkness_a_filmmaker_s_apocalypse = 3
+home_alone_3 = 2
+the_hudsucker_proxy = 3
+inside_monkey_zetterland = 3
+in_good_company = 1
+intolerable_cruelty = 2
+the_island = 1
+just_cause = 1
+the_ladykillers = 4
+lick_the_star = 1
+lost_in_translation = 3
+the_man_who_wasn't_there = 3
+manny__lo = 1
+marie_antoinette = 1
+match_point = 1
+miller_s_crossing = 2
+mission_impossible = 5
+my_brother_the_pig = 1
+no_country_for_old_men = 2
+north = 1
+o_brother_where_art_thou = 3
+paris_je_t_aime = 1
+peggy_sue_got_married = 3
+the_perfect_score = 1
+raising_arizona = 3
+rumble_fish = 2
+spies_like_us = 4
+star_wars_episode_i__the_phantom_menace = 4
+torrance_rises = 1
+the_spongebob_squarepants_movie = 2
+the_horse_whisperer = 2
+the_usual_suspects = 4
+the_virgin_suicides = 4
+a_view_from_the_bridge = 2
+untitled_woody_allen_fall_project_2006 = 1
+
+
+NONE:
+the_outsiders
+if_lucy_fell
+
+
