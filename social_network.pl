@@ -1,12 +1,9 @@
 :- [movies].
-
 :- discontiguous
         friend_of/2,
         liked/2.
 
-:- multifile 
-	friendof/2,
-	liked/2.
+
 
 % User 01
 %% User 01 Social Network
