@@ -1,4 +1,4 @@
-Data Exploration
+DATA EXPLORATION
 1)
 	# users in the social network = 10
 	# movies = 64
@@ -6,7 +6,7 @@ Data Exploration
 	# actors = 1850
 	# actresses = 895
 	
-	The movies that no one liked are 'The Outsiders' and 'If Lucy Fell'
+	The movies that no-one liked are 'The Outsiders' and 'If Lucy Fell'
 	
 	The most liked movie is 'Mission Impossible'.
 	Other well liked movies are:
@@ -50,17 +50,28 @@ Data Exploration
 	- Kevin Spacey: American Beauty and & The Usual Suspects
 	- Thora Birch: Ghost World & American Beauty
 	
-	Frequent Appearances
-	Sofia Coppola: Virgin Suicides & Star Wars 1 & the Godfather
-	Scarlett Johansson: Eight Legged Freaks & Ghost World
-	Steve Buscemi: Fargo & Ghost World
-	John Goodman frequently appears
-	Roman Coppola frequent
-	Francis Ford Coppola
-	Ethan Coen
-	Joel Coen
-	Frances McDormand
-	Holly Hunter frequent appearance
-	Bruce Campbell
-	Jon Polito
+	Actors/Actresses and Directors with more than 5 appearances in movies:
+	- Sofia Coppola: popular works are Virgin Suicides & Star Wars 1 & the Godfather
+	- Scarlett Johansson: popular works are Eight Legged Freaks & Ghost World
+	- Steve Buscemi: popular works are Fargo & Ghost World
+	- John Goodman 
+	- Roman Coppola
+	- Francis Ford Coppola
+	- Ethan Coen
+	- Joel Coen
+	- Frances McDormand
+	- Holly Hunter 
+	- Bruce Campbell
+	- Jon Polito
+	
+
+IMPLEMENTATION JUSTIFICATION 
+2) I gathered the information on the ratings of all of the movies that were in the movies.pl and added them to a seperate file.
+ I did this because I believed that to help the user be more social on the social network but to also not waste their time they
+ should be recommended to watch movies that their friends have liked and but that they have yet to see or like. The ratings are in 
+ place so that the user is only recommended movies that meet the previous criteria but that are also generally well received. At the
+ end of it even if the movie was not to the user's taste having watched a well received movie would give them more to talk about
+ and ultimately it would allow them to be more social by giving them a popular thing to talk about and for them to have formed some opinion on.
+ The main benefit from this algorithm as you can see is that it encourages the user to be more social and potentially build more connections.
+ 
 	
