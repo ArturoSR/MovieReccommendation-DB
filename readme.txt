@@ -65,7 +65,6 @@ DATA EXPLORATION
 	- Jon Polito
 	
 
-	% TALK ABOUT HOW COMPLETELY IRRELEVANT MOVIES LIKE BARBIE DREAM HOUSE WILL BE AVOIDED BECAUSE OF LOW RATING IN README.
 
 IMPLEMENTATION JUSTIFICATION 
 2) I gathered the information on the ratings of all of the movies that were in the movies.pl and added them to a seperate file.

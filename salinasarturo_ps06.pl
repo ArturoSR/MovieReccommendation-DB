@@ -34,6 +34,7 @@ liked(ben, rumble_fish).
 liked(ben, the_outsiders).
 liked(ben, a_view_from_the_bridge).
 liked(ben, untitled_woody_allen_fall_project_2006).
+liked(ben, mission_impossible).
 
 % Cathy only has Ben as a friend and she has liked some movies that Ben has liked and some that he hasn't but are highly rated.
 friend_of(cathy, ben).

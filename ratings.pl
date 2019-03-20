@@ -1,3 +1,4 @@
+% These values were converted from IMDB by multiplying the scores by 10 to get rid of decimal values.
 rating(american_beauty, 84).
 rating(anna, 65).
 rating(barton_fink, 77).
