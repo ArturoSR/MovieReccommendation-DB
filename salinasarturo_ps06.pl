@@ -62,8 +62,8 @@ liked(dan, hail_ceasar).
 liked(dan, intolerable_cruelty).
 liked(dan, the_ladykillers).
 
-% Ellie has liked all of the movies that Ben and Dan have liked
-% She will then only ever be recommended highly rated movies he has not watched.
+% Ellie has liked all of the movies that Ben and Dan have liked except for 1.
+% She will then only ever be recommended that movie.
 friend_of(ellie, ben).
 friend_of(ellie, dan).
 
@@ -74,7 +74,6 @@ liked(ellie, lick_the_star).
 liked(ellie, hail_ceasar).
 liked(ellie, intolerable_cruelty).
 liked(ellie, the_ladykillers).
-liked(ellie, frankenweenie).
 liked(ellie, anna).
 liked(ellie, ghost_busters).
 liked(ellie, the_godfather).
@@ -97,6 +96,11 @@ liked(ellie, untitled_woody_allen_fall_project_2006).
 % !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
+good_recs(X, Y) :-
+	(rating(Y, R), 
+	R >= 80, 
+	\+ liked(X, Y)).
+	
 % Movies that their friends have liked but that they themselves have yet to like.
 % Make sure that the film has a minimum score of an .
 reco(X, Y) :-
@@ -104,7 +108,9 @@ reco(X, Y) :-
 	((liked(Friend, Y), 
 	\+ liked(X, Y)),
 	(rating(Y, R), R >= 70)) ;
-	(rating(Y, R), R >= 80, \+ liked(X, Y)).
+	good_recs(X, Y).
+	
+
 	
 recommend_movie(X, Y) :-
 	setof(_, reco(X, Y), _).
