@@ -2,9 +2,9 @@ DATA EXPLORATION
 1)
 	# users in the social network = 10
 	# movies = 64
-	# directors = 100
-	# actors = 1850
-	# actresses = 895
+	# directors (non-unique) = 100
+	# actors (non-unique) = 1850
+	# actresses (non-unique) = 895
 	
 	The movies that no-one liked are 'The Outsiders' and 'If Lucy Fell'
 	
@@ -50,7 +50,7 @@ DATA EXPLORATION
 	- Kevin Spacey: American Beauty and & The Usual Suspects
 	- Thora Birch: Ghost World & American Beauty
 	
-	Actors/Actresses and Directors with more than 5 appearances in movies:
+	Actors/Actresses/Directors with more than 5 appearances in movies:
 	- Sofia Coppola: popular works are Virgin Suicides & Star Wars 1 & the Godfather
 	- Scarlett Johansson: popular works are Eight Legged Freaks & Ghost World
 	- Steve Buscemi: popular works are Fargo & Ghost World
@@ -65,6 +65,8 @@ DATA EXPLORATION
 	- Jon Polito
 	
 
+	% TALK ABOUT HOW COMPLETELY IRRELEVANT MOVIES LIKE BARBIE DREAM HOUSE WILL BE AVOIDED BECAUSE OF LOW RATING IN README.
+
 IMPLEMENTATION JUSTIFICATION 
 2) I gathered the information on the ratings of all of the movies that were in the movies.pl and added them to a seperate file.
  I did this because I believed that to help the user be more social on the social network but to also not waste their time they
@@ -74,4 +76,3 @@ IMPLEMENTATION JUSTIFICATION
  and ultimately it would allow them to be more social by giving them a popular thing to talk about and for them to have formed some opinion on.
  The main benefit from this algorithm as you can see is that it encourages the user to be more social and potentially build more connections.
  
-	
